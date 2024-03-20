@@ -1,6 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import Header from '../components/header'
 import Footer from '../components/footer'
+import SwapCard from '../components/swapCard'
 
 export default function Home() {
   return (
@@ -37,7 +40,7 @@ export default function Home() {
               }}
             />
             <div className='relative z-10 mx-auto w-2/3'>
-              
+              <SwapCard />
             </div>
           </section>
         </main>
